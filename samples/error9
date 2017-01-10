@@ -1,0 +1,8 @@
+// This error example shows non-valid aritmatic expression error
+
+void main(800,600,1){
+    a =  3 +;  // must get something else after +
+    b = false  + 2; // boolean + int is not valid
+}
+
+ 

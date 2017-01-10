@@ -1,0 +1,49 @@
+/*	
+	This sample program ability of function and shape extension
+*/
+
+void main(800,600,1){
+	
+	x = Location(400,300);
+	drawBackGround(x);
+	drawHouse(Location(300,300),Size(70,100));
+	x = false;
+	i = 3 +5;
+	if(x == false){
+		height = 30;
+		width = 10;
+		for(i = 0; i < 50; i++){
+			drawStickMan(i*11 + 50, 50, height, width);
+		}
+	}
+}
+
+func drawBackGround(loc){
+	drawString("This is awesome",loc);
+}
+
+func drawHouse(loc,size){
+	drawRectangle(loc,size);
+}
+
+
+func drawStickMan(x,y,height,width){
+	//Declearing shape extension	
+	stickMan = new StickMan(x,y,3,5);
+	draw(stickMan);
+}
+
+extension StickMan(x,y,height,width){
+	initialLoc = Location(x,y);
+	headSize = Size(width,width);
+	head = Oval(initialLoc,headSize);
+	body = Line(Location(x,y),Location(width,height));
+	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+************************************************************************************
+(./parser <../samples/error1)
+errorat line 2: syntax error
+errorat line 2: main function required
+errorat line 3: main function required
+Parsing completed with 3 errors
+************************************************************************************
+(./parser <../samples/error2)
+errorat line 3: syntax error
+errorat line 3: main function required
+errorat line 5: main function required
+errorat line 6: main function required
+Parsing completed with 4 errors
+************************************************************************************
+(./parser <../samples/error3)
+errorat line 4: variable b is not defined
+errorat line 7: variable str is not defined
+errorat line 7: variable l1 is not defined
+Parsing completed with 3 errors
+************************************************************************************
+(./parser <../samples/error4)
+error at line 5: myFunc1 is not defined
+Parsing completed with 1 errors
+************************************************************************************
+(./parser <../samples/error5)
+error at line 6: myFunc1 is not defined
+error at line 8: myExt1 is not defined
+Parsing completed with 2 errors
+************************************************************************************
+(./parser <../samples/error6)
+errorat line 6: syntax error
+errorat line 7: syntax error
+errorat line 8: syntax error
+errorat line 9: variable size is not defined
+errorat line 9: syntax error
+errorat line 11: syntax error
+errorat line 12: variable size is not defined
+errorat line 12: syntax error
+Parsing completed with 8 errors
+************************************************************************************
+(./parser <../samples/error7)
+errorat line 9: syntax error
+errorat line 10: syntax error
+errorat line 14: syntax error
+errorat line 15: syntax error
+errorat line 16: syntax error
+Parsing completed with 5 errors
+************************************************************************************
+(./parser <../samples/error8)
+errorat line 5: syntax error
+errorat line 5: conditional expected
+errorat line 7: variable b is not defined
+errorat line 10: syntax error
+errorat line 10: conditional expected
+Parsing completed with 5 errors
+************************************************************************************
+(./parser <../samples/error9)
+errorat line 4: syntax error
+errorat line 5: syntax error
+Parsing completed with 2 errors
+************************************************************************************
+(./parser <../samples/error10)
+errorat line 4: variable b is not defined
+errorat line 10: syntax error
+errorat line 10: conditional expected
+Parsing completed with 3 errors

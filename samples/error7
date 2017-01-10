@@ -1,0 +1,17 @@
+// This error example shows built-in function call and built-in shape assignment
+
+void main(800,600,1){
+    oval1 = Oval();
+    size = Size(790,590);
+	loc = Location(5,5);
+	// oval = Oval(loc, size, strokeWidth, color, isFilled);
+	oval2 = Oval(loc,size,1, Color(1,2,3),false);
+    draw("str");
+	draw(oval1,1);
+
+	//calling implicit draw functions(drawOval,drawRectangle,drawLine);
+	
+	drawOval(Location(60,30), Size(30,60), 1, Color("yellow"), true,1);
+	drawRectangle(loc, size, 2, true, Color("yellow"), false,1);
+	drawLine(loc,loc,1);
+}

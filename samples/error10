@@ -1,0 +1,14 @@
+// This error example shows while condition and do while errors
+
+void main(800,600,1){
+    while(true == b) // use - before defination error
+    {
+
+    }
+
+    do{
+    }while(); // while take loop condition
+}
+
+ 
+ 

@@ -1,0 +1,6 @@
+// This error example shows wrorn main error 
+
+void main(800,600){
+	//Location decleration
+	loc1 = Location(5,5);
+}

@@ -1,0 +1,11 @@
+// This error example shows use before defination error
+
+void main(800,600,1){
+    a = b +3;
+    b = 4;
+
+    drawString(str, l1); // str is decleared at line 8
+    str= "a";
+    l1 = Location(1,2);
+
+}

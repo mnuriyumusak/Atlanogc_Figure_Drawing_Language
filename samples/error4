@@ -1,0 +1,12 @@
+// This error example shows function call error 
+
+void main(800,600,1){
+    myFunc1();
+    myFunc();
+
+}
+
+func myFunc()
+{
+    a = 3;
+}

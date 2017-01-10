@@ -1,0 +1,13 @@
+// This error example shows if and for error
+
+void main(800,600,1){
+    bool = false;
+    if(){	//empty loop condition
+		printStr = "str";
+        a = b+ 5;
+	}
+
+    for(i = 1; i ; i++){ // wrong loop condition
+			 
+		}
+}

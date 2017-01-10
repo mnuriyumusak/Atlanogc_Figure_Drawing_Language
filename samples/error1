@@ -1,0 +1,6 @@
+//error is code is not in main function 
+loc1 = Location(5,5);
+loc2 = Location(795,595);
+
+
+ 

@@ -1,0 +1,64 @@
+/*	
+	This sample program shows the built-in shape and drawing function
+*/
+
+void main(800,600,1){
+	
+	//Location decleration
+	loc1 = Location(5,5);
+	loc2 = Location(795,595);
+
+	//Color decleration
+	color1 = Color("red");
+	color2 = Color("black");
+
+	//Size Declaration
+	size = Size(790,590);
+
+	//Boolean
+	filled = true;
+	notFilled = false;
+	
+	crossLine = Line(loc1,loc2); // This line has black line
+	
+	//Bounding box declaration 
+	bb = BoundingBox(loc1,size);
+	
+	arrowLine = Line("NW", 5 , 3 , color1); // Line(direction, strokeWidth, arrow, color);
+
+	//Drawing these Lines 
+	draw(crossLine);
+	draw(bb,arrowLine); 
+
+	// rectangle = Rectangle(loc, size, strokeWidth, isRounded, color, isFilled);
+	rec = Rectangle(Location(400,300), Size(10,10), 1, false, Color("red"), false);
+	
+	// Rectangle(strokeWidth, isRounded, color, isFilled);
+	rec2 = Rectangle(1, true ,Color(255,255,0), filled);	//Rounded and filledColor rectangle
+	
+	// Drawing Rectangles	
+	draw(rec);
+	draw(bb,rec2);
+
+
+	oval1 = Oval();
+	loc = Location(5,5);
+	// oval = Oval(loc, size, strokeWidth, color, isFilled);
+	oval2 = Oval(loc,size,1, Color(1,2,3),false);
+
+	//Drawing ovals
+	draw(oval2);
+	draw(oval1);
+
+	//calling implicit draw functions(drawOval,drawRectangle,drawLine);
+	
+	drawOval(Location(60,30), Size(30,60), 1, Color("yellow"), true);
+	drawRectangle(loc1, size, 2, true, Color("yellow"), false);
+	drawLine(loc1,loc2);
+
+	drawOval(2,2);
+	drawRectangle(3,3);
+	
+	
+}
+

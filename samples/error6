@@ -1,0 +1,13 @@
+// This error example shows built-in function call and built-in shape assignment
+
+
+void main(800,600,1){
+    loc = Location(1,1);
+    loc1 = Location(5,5,5);
+    color1 = Color("red",1);
+    size = Size(790,590,1);
+    bb = BoundingBox(loc,size,1);
+	arrowLine = Line("NW", 5 , 3 ,1 ,"yellow"); // Line(direction, strokeWidth, arrow, color);
+    rec = Rectangle(Location(400,300), Size(10,10), 1, false, Color("red",1), false);
+    oval2 = Oval(loc,size,1, Color(1,2,3,1),false,1);
+}

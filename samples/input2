@@ -1,0 +1,32 @@
+/*
+*	This sample program shows the primitive types and opeeartions, line comments, multiline comments and nested comments.
+*
+*/
+void main(500,500,3){
+	// This is dynamically typed language there is no specifying name  	
+	name = "Ali";
+	k = 4;
+	age = k * 3;
+	l1 = Location(3,5);
+	drawString("Ali"+5.2,l1);		// String and int concatenation
+	drawString(name,l1);		// String and int concatenation
+	ageOfVeli = age + 5;		//AgeOfVeli = 10
+	ageOfVeli = age * 2;		//AgeOfVeli = 20
+	ageOfVeli = ageOfVeli + 0.5;	//ageOfVeli will be converted into float
+	nameOfVeli = "Veli";
+	bool = false;			// boolean declerasion
+
+	//Integer Operations 
+	
+	if(bool == false){
+		printStr = nameOfVeli + ageOfVeli; 	//String and float concatenation
+		drawString(printStr,l1);
+	}
+}
+
+/*
+	This is outside of nested comment
+	/*
+		This is inside of nested comment
+	*/
+*/
